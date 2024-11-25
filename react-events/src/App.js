@@ -50,7 +50,7 @@ export default class App extends Component {
           .fill(null)
           // iterates over each elelemnt of the array and return the pokemonCard element
           .map((element, index) => {
-            return <PokemonCard/>
+            return <PokemonCard key = {index + 1}/>
           })
         }
 

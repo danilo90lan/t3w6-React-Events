@@ -33,7 +33,7 @@ export default class PokemonCard extends Component {
                             //render content here if it's true 
                             <>
                                 <h1>{this.state.pokemonName}</h1>
-                                <img src = {this.state.pokemonImage}></img>
+                                <img src = {this.state.pokemonImage} alt="pokemon"></img>
                             </>
                             :
                             // if it's false render this content
